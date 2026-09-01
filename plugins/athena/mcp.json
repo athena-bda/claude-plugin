@@ -1,0 +1,13 @@
+{
+  "$schema": "https://agent-plugins.org/schemas/1.0.0/mcp.schema.json",
+  "mcpServers": {
+    "athena-contact-portal": {
+      "type": "streamable-http",
+      "url": "https://pipeline-studio-api.athenabda.com/mcp"
+    },
+    "athena-intelligence-hub": {
+      "type": "streamable-http",
+      "url": "https://vbwrebrltrrvijaslhes.supabase.co/functions/v1/mcp"
+    }
+  }
+}
